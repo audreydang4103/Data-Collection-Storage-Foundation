@@ -17,14 +17,13 @@
 This data pipeline processes Glamira e-commerce analytics data:
 - **IP Location Enrichment**: Extract unique IPs and enrich with geo-location data
 - **Product Details Crawling**: Crawl product information (name, price, category, images, ratings)
-- **Data Export**: Convert BSON files to CSV/Parquet for Google Cloud Storage and BigQuery
-
+- 
 **Tech Stack:**
 - MongoDB (source data)
 - Python 3.10+
 - Selenium (web scraping)
 - IP2Location (geo-location)
-- Google Cloud Platform (storage & analytics)
+- Google Cloud Platform (storage and VM)
 
 ---
 
@@ -152,13 +151,7 @@ db.summary.findOne()
 
 ## IP Processor Setup
 
-### 1. Download IP2Location Database
-```bash
-Use existing IP2Location BIN file
-cp /path/to/IP-COUNTRY-REGION-CITY.BIN .
-```
-
-### 2. Configuration
+### 1. Configuration
 Edit `ip_processor.py`:
 ```python
 # MongoDB connection
@@ -174,7 +167,7 @@ OUTPUT_UNIQUE_IPS = './output/unique_ips.txt'
 OUTPUT_BSON = './output/ip_locations.bson'
 ```
 
-### 3. Run IP Processor
+### 2. Run IP Processor
 ```bash
 # Using Poetry
 poetry run python3 ip_processor.py
