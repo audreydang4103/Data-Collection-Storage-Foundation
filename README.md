@@ -119,23 +119,6 @@ DELAY_BETWEEN_PRODUCTS = 2    # Seconds
 
 ---
 
-### `verify_data_quality.py`
-**Purpose**: Validate data quality after processing
-
-**Checks:**
-- Completeness (required vs optional fields)
-- Validity (format, ranges)
-- Uniqueness (duplicates)
-- Distribution (domains, countries)
-- Statistics (price ranges, coverage)
-
-**Usage:**
-```bash
-python3 verify_data_quality.py
-```
-
----
-
 ## Performance
 
 ### IP Processor: 3,239,628 IPs
@@ -179,14 +162,6 @@ Scripts automatically save progress. Just re-run the same command:
 # Resume automatically from last checkpoint
 python3 product_crawler.py
 ```
-
-
----
-
-## Documentation
-
-- **[SETUP_GUIDE.md](SETUP_GUIDE.md)**: Complete setup instructions
-- **[DATA_QUALITY_REPORT.md](DATA_QUALITY_REPORT.md)**: Quality validation guide
 
 ---
 
