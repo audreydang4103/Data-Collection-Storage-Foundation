@@ -6,10 +6,9 @@
 1. [Project Overview](#project-overview)
 2. [Architecture](#architecture)
 3. [Prerequisites](#prerequisites)
-4. [MongoDB Setup](#mongodb-setup)
+4. [MongoDB Setup on VM](#mongodb-setup-on-VM)
 5. [IP Processor Setup](#ip-processor-setup)
 6. [Product Crawler Setup](#product-crawler-setup)
-7. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -42,12 +41,6 @@ This data pipeline processes Glamira e-commerce analytics data:
 └──────────┬──────────┴──────────┬──────────┘
            ↓                     ↓
     ip_locations.bson    product_details.bson
-           ↓                     ↓
-       convert_bson.py (CSV/Parquet)
-           ↓                     ↓
-    Google Cloud Storage (GCS)
-           ↓
-       BigQuery (Analytics)
 ```
 
 ---
@@ -55,24 +48,11 @@ This data pipeline processes Glamira e-commerce analytics data:
 ## Prerequisites
 
 ### 1. System Requirements
-- **OS**: Linux (Ubuntu/Debian) or macOS
+- **OS**: Ubuntu 22.04 LTS (Jammy Jellyfish) on Google Cloud
 - **RAM**: 8GB+ (16GB recommended for large datasets)
 - **Disk**: 50GB+ free space
-- **Network**: Stable internet for crawling
 
-### 2. Software Dependencies
-```bash
-# Python 3.10+
-python3 --version
-
-# MongoDB 7.0+
-mongod --version
-
-# Chrome/Chromium (for Selenium)
-google-chrome --version
-```
-
-### 3. Python Packages
+### 2. Python Packages
 
 #### Using Poetry
 ```bash
@@ -93,7 +73,7 @@ poetry show
 
 ```
 
-## MongoDB Setup
+## MongoDB Setup on VM
 
 ### 1. Install MongoDB (Ubuntu/Debian)
 ```bash
