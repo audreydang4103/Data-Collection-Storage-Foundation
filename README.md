@@ -22,7 +22,7 @@ Project/
 │   ├── ip_processor.log
 │   └── product_crawler.log
 │ 
-├── summary.bson                   # MôngDB files
+├── summary.bson                   # MongoDB files
 └── summary.metadata.json
 ```
 
