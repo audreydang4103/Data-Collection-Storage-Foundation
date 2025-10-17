@@ -30,6 +30,10 @@ Project/
 
 ## Quick Start
 
+Use this command to download full data for output and summary.bson and IP-COUNTRY-REGION-CITY.BIN files (since cannot upload large files to Github):
+```
+gsutil -m cp -r gs://raw_glamira_data .
+```
 **[SETUP_GUIDE.md](SETUP_GUIDE.md)**
 
 ---
