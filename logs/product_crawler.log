@@ -1,0 +1,413 @@
+2025-10-16 21:47:05,868 - INFO - ======================================================================
+2025-10-16 21:47:05,868 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-16 21:47:05,868 - INFO - ======================================================================
+2025-10-16 21:47:05,868 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-16 21:47:05,913 - INFO - Connected to MongoDB: test
+2025-10-16 21:47:05,913 - INFO - 
+Step 2: Loading product data...
+2025-10-16 21:47:05,913 - INFO - Product data file not found or empty, extracting from MongoDB...
+2025-10-16 21:47:05,913 - INFO - Extracting product data from MongoDB collections...
+2025-10-16 21:47:05,919 - ERROR - Error processing collection view_product_detail: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,920 - ERROR - Error processing collection select_product_option: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,921 - ERROR - Error processing collection select_product_option_quality: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,922 - ERROR - Error processing collection add_to_cart_action: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,923 - ERROR - Error processing collection product_detail_recommendation_visible: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,924 - ERROR - Error processing collection product_detail_recommendation_noticed: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,926 - ERROR - Error processing collection product_view_all_recommend_clicked: not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }, full error: {'ok': 0.0, 'errmsg': 'not authorized on test to execute command { listCollections: 1, cursor: {}, nameOnly: true, lsid: { id: UUID("2acfd08d-f084-4b28-a567-a43f522f805e") }, $db: "test" }', 'code': 13, 'codeName': 'Unauthorized'}
+2025-10-16 21:47:05,926 - INFO - Total unique products found: 0
+2025-10-16 21:47:05,926 - INFO - Saved product data to ./output/unique_product_ids.json
+2025-10-16 21:47:05,926 - WARNING - No products found
+2025-10-16 21:47:05,926 - INFO - 
+Cleaning up...
+2025-10-16 21:47:05,927 - INFO - Cleanup completed
+2025-10-16 21:47:05,927 - ERROR - 
+Script completed with errors
+2025-10-16 21:53:02,927 - INFO - ======================================================================
+2025-10-16 21:53:02,927 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-16 21:53:02,927 - INFO - ======================================================================
+2025-10-16 21:53:02,927 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-16 21:53:02,946 - INFO - Connected to MongoDB: glamira
+2025-10-16 21:53:02,946 - INFO - 
+Step 2: Loading product data...
+2025-10-16 21:53:02,946 - INFO - Loaded 0 products from file
+2025-10-16 21:53:02,946 - INFO - Product data file not found or empty, extracting from MongoDB...
+2025-10-16 21:53:02,946 - INFO - Extracting product data from MongoDB collections...
+2025-10-16 21:53:02,948 - WARNING - Collection not found: view_product_detail
+2025-10-16 21:53:02,949 - WARNING - Collection not found: select_product_option
+2025-10-16 21:53:02,950 - WARNING - Collection not found: select_product_option_quality
+2025-10-16 21:53:02,951 - WARNING - Collection not found: add_to_cart_action
+2025-10-16 21:53:02,952 - WARNING - Collection not found: product_detail_recommendation_visible
+2025-10-16 21:53:02,953 - WARNING - Collection not found: product_detail_recommendation_noticed
+2025-10-16 21:53:02,953 - WARNING - Collection not found: product_view_all_recommend_clicked
+2025-10-16 21:53:02,954 - INFO - Total unique products found: 0
+2025-10-16 21:53:02,954 - INFO - Saved product data to ./output/unique_product_ids.json
+2025-10-16 21:53:02,954 - WARNING - No products found
+2025-10-16 21:53:02,954 - INFO - 
+Cleaning up...
+2025-10-16 21:53:02,955 - INFO - Cleanup completed
+2025-10-16 21:53:02,955 - ERROR - 
+Script completed with errors
+2025-10-16 21:55:21,221 - INFO - ======================================================================
+2025-10-16 21:55:21,222 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-16 21:55:21,222 - INFO - ======================================================================
+2025-10-16 21:55:21,222 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-16 21:55:21,241 - INFO - Connected to MongoDB: glamira
+2025-10-16 21:55:21,241 - INFO - 
+Step 2: Loading product data...
+2025-10-16 21:55:21,242 - INFO - Loaded 0 products from file
+2025-10-16 21:55:21,242 - INFO - Product data file not found or empty, extracting from MongoDB...
+2025-10-16 21:55:21,242 - INFO - Extracting product data from MongoDB collections...
+2025-10-16 21:55:21,243 - WARNING - Collection not found: view_product_detail
+2025-10-16 21:55:21,244 - WARNING - Collection not found: select_product_option
+2025-10-16 21:55:21,245 - WARNING - Collection not found: select_product_option_quality
+2025-10-16 21:55:21,245 - WARNING - Collection not found: add_to_cart_action
+2025-10-16 21:55:21,246 - WARNING - Collection not found: product_detail_recommendation_visible
+2025-10-16 21:55:21,246 - WARNING - Collection not found: product_detail_recommendation_noticed
+2025-10-16 21:55:21,247 - WARNING - Collection not found: product_view_all_recommend_clicked
+2025-10-16 21:55:21,247 - INFO - Total unique products found: 0
+2025-10-16 21:55:21,247 - INFO - Saved product data to ./output/unique_product_ids.json
+2025-10-16 21:55:21,247 - WARNING - No products found
+2025-10-16 21:55:21,247 - INFO - 
+Cleaning up...
+2025-10-16 21:55:21,248 - INFO - Cleanup completed
+2025-10-16 21:55:21,248 - ERROR - 
+Script completed with errors
+2025-10-16 22:00:45,551 - INFO - ======================================================================
+2025-10-16 22:00:45,552 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-16 22:00:45,552 - INFO - ======================================================================
+2025-10-16 22:00:45,552 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-16 22:00:45,573 - INFO - Connected to MongoDB: glamira
+2025-10-16 22:00:45,573 - INFO - 
+Step 2: Loading product data...
+2025-10-16 22:00:45,574 - INFO - Loaded 0 products from file
+2025-10-16 22:00:45,574 - INFO - Product data file not found or empty, extracting from MongoDB...
+2025-10-16 22:00:45,574 - INFO - Extracting product data from summary collection...
+2025-10-16 22:00:45,574 - INFO - Processing event type: view_product_detail
+2025-10-16 22:07:23,107 - INFO -   Found 19417 unique products so far
+2025-10-16 22:07:23,108 - INFO - Processing event type: select_product_option
+2025-10-16 22:13:09,149 - INFO -   Found 19417 unique products so far
+2025-10-16 22:13:09,149 - INFO - Processing event type: select_product_option_quality
+2025-10-16 22:15:18,355 - INFO -   Found 19417 unique products so far
+2025-10-16 22:15:18,355 - INFO - Processing event type: add_to_cart_action
+2025-10-16 22:16:09,439 - INFO -   Found 19417 unique products so far
+2025-10-16 22:16:09,440 - INFO - Processing event type: product_detail_recommendation_visible
+2025-10-16 22:17:43,452 - INFO -   Found 19417 unique products so far
+2025-10-16 22:17:43,454 - INFO - Processing event type: product_detail_recommendation_noticed
+2025-10-16 22:19:48,076 - INFO -   Found 19417 unique products so far
+2025-10-16 22:19:48,076 - INFO - Processing event type: product_view_all_recommend_clicked
+2025-10-16 22:20:32,015 - INFO -   Found 19417 unique products so far
+2025-10-16 22:20:37,198 - INFO - Total unique products found: 19417
+2025-10-16 22:20:37,312 - INFO - Saved product data to ./output/unique_product_ids.json
+2025-10-16 22:20:38,766 - INFO - 
+Step 3: Checking resume state...
+2025-10-16 22:20:38,784 - INFO - Total products: 19417
+2025-10-16 22:20:38,785 - INFO - Already crawled: 0
+2025-10-16 22:20:38,785 - INFO - Remaining: 19417
+2025-10-16 22:20:38,785 - INFO - 
+Step 4: Setting up Selenium driver...
+2025-10-16 22:20:38,785 - INFO - ====== WebDriver manager ======
+2025-10-16 22:20:38,810 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:20:38,890 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-10-16 22:20:38,957 - INFO - Driver downloading response is 200
+2025-10-16 22:20:38,986 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:20:39,180 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:20:39,256 - INFO - Driver has been saved in cache [/home/audreydang4103_gmail_com/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-10-16 22:20:39,344 - ERROR - Error during crawling: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x5a54a26114e3 <unknown>
+#1 0x5a54a2340c76 <unknown>
+#2 0x5a54a2367757 <unknown>
+#3 0x5a54a2366029 <unknown>
+#4 0x5a54a23a4ccc <unknown>
+#5 0x5a54a23a447f <unknown>
+#6 0x5a54a239bde3 <unknown>
+#7 0x5a54a23712dd <unknown>
+#8 0x5a54a237234e <unknown>
+#9 0x5a54a25d13e4 <unknown>
+#10 0x5a54a25d53d7 <unknown>
+#11 0x5a54a25dfb20 <unknown>
+#12 0x5a54a25d6023 <unknown>
+#13 0x5a54a25a41aa <unknown>
+#14 0x5a54a25fa6b8 <unknown>
+#15 0x5a54a25fa847 <unknown>
+#16 0x5a54a260a243 <unknown>
+#17 0x79c116e94ac3 <unknown>
+Traceback (most recent call last):
+  File "/home/audreydang4103_gmail_com/data-project/src/data_project/product_crawler.py", line 501, in crawl_products
+    driver = setup_driver(headless=True)
+  File "/home/audreydang4103_gmail_com/data-project/src/data_project/product_crawler.py", line 97, in setup_driver
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/chrome/webdriver.py", line 46, in __init__
+    super().__init__(
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/chromium/webdriver.py", line 71, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 263, in __init__
+    self.start_session(capabilities)
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 366, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "/home/audreydang4103_gmail_com/.cache/pypoetry/virtualenvs/data-project-8HVQyDhQ-py3.10/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+#0 0x5a54a26114e3 <unknown>
+#1 0x5a54a2340c76 <unknown>
+#2 0x5a54a2367757 <unknown>
+#3 0x5a54a2366029 <unknown>
+#4 0x5a54a23a4ccc <unknown>
+#5 0x5a54a23a447f <unknown>
+#6 0x5a54a239bde3 <unknown>
+#7 0x5a54a23712dd <unknown>
+#8 0x5a54a237234e <unknown>
+#9 0x5a54a25d13e4 <unknown>
+#10 0x5a54a25d53d7 <unknown>
+#11 0x5a54a25dfb20 <unknown>
+#12 0x5a54a25d6023 <unknown>
+#13 0x5a54a25a41aa <unknown>
+#14 0x5a54a25fa6b8 <unknown>
+#15 0x5a54a25fa847 <unknown>
+#16 0x5a54a260a243 <unknown>
+#17 0x79c116e94ac3 <unknown>
+
+2025-10-16 22:20:39,355 - INFO - 
+Cleaning up...
+2025-10-16 22:20:39,356 - INFO - Cleanup completed
+2025-10-16 22:20:39,628 - ERROR - 
+Script completed with errors
+2025-10-16 22:32:26,067 - INFO - ======================================================================
+2025-10-16 22:32:26,067 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-16 22:32:26,067 - INFO - ======================================================================
+2025-10-16 22:32:26,067 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-16 22:32:26,094 - INFO - Connected to MongoDB: glamira
+2025-10-16 22:32:26,094 - INFO - 
+Step 2: Loading product data...
+2025-10-16 22:32:26,118 - INFO - Loaded 19417 products from file
+2025-10-16 22:32:26,119 - INFO - 
+Step 3: Checking resume state...
+2025-10-16 22:32:26,120 - INFO - Total products: 19417
+2025-10-16 22:32:26,120 - INFO - Already crawled: 0
+2025-10-16 22:32:26,120 - INFO - Remaining: 19417
+2025-10-16 22:32:26,120 - INFO - 
+Step 4: Setting up Selenium driver...
+2025-10-16 22:32:26,121 - INFO - ====== WebDriver manager ======
+2025-10-16 22:32:26,215 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:32:26,298 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:32:26,371 - INFO - There is no [linux64] chromedriver "141.0.7390.78" for browser google-chrome "141.0.7390" in cache
+2025-10-16 22:32:26,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:32:26,567 - INFO - WebDriver version 141.0.7390.78 selected
+2025-10-16 22:32:26,574 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+2025-10-16 22:32:26,574 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+2025-10-16 22:32:26,641 - INFO - Driver downloading response is 200
+2025-10-16 22:32:26,679 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-16 22:32:26,882 - INFO - Driver has been saved in cache [/home/audreydang4103_gmail_com/.wdm/drivers/chromedriver/linux64/141.0.7390.78]
+2025-10-16 22:32:27,228 - INFO - Chrome driver ready
+2025-10-16 22:32:27,228 - INFO - 
+Step 5: Crawling 19417 products...
+2025-10-16 22:39:01,165 - INFO - Batch 1/389 | Success: 50/50 | Failed: 0 | Time: 393.9s | Avg: 7.9s/product | Progress: 50/19417 (0.3%)
+2025-10-16 22:44:52,886 - INFO - Batch 2/389 | Success: 50/50 | Failed: 0 | Time: 348.7s | Avg: 7.0s/product | Progress: 100/19417 (0.5%)
+2025-10-16 22:50:37,170 - INFO - Batch 3/389 | Success: 50/50 | Failed: 0 | Time: 341.3s | Avg: 6.8s/product | Progress: 150/19417 (0.8%)
+2025-10-16 22:56:25,639 - INFO - Batch 4/389 | Success: 50/50 | Failed: 0 | Time: 345.5s | Avg: 6.9s/product | Progress: 200/19417 (1.0%)
+2025-10-16 23:02:17,604 - INFO - Batch 5/389 | Success: 50/50 | Failed: 0 | Time: 349.0s | Avg: 7.0s/product | Progress: 250/19417 (1.3%)
+2025-10-16 23:08:00,202 - INFO - Batch 6/389 | Success: 50/50 | Failed: 0 | Time: 339.6s | Avg: 6.8s/product | Progress: 300/19417 (1.5%)
+2025-10-16 23:13:44,680 - INFO - Batch 7/389 | Success: 50/50 | Failed: 0 | Time: 341.5s | Avg: 6.8s/product | Progress: 350/19417 (1.8%)
+2025-10-16 23:19:30,581 - INFO - Batch 8/389 | Success: 50/50 | Failed: 0 | Time: 342.9s | Avg: 6.9s/product | Progress: 400/19417 (2.1%)
+2025-10-16 23:24:48,711 - WARNING - Failed: 109628 | Message: timeout: Timed out receiving message from renderer: 13.953
+  (Session info: chrome=141.0.7390.107)
+Stacktrace:
+#0 0x602c76e7c67a <unknown>
+#1 0x602c768fb566 <unknown>
+#2 0x602c768e361f <unknown>
+#3 0x602c768e3302 <unknown>
+#4 0x602c768e1142 <unknown>
+#5 0x602c768e1a9f <unknown>
+#6 0x602c768f0373 <unknown>
+#7 0x602c76909a7b <unknown>
+#8 0x602c7691020b <unknown>
+#9 0x602c768e21dd <unknown>
+#10 0x602c769097a8 <unknown>
+#11 0x602c76999685 <unknown>
+#12 0x602c76973403 <unknown>
+#13 0x602c7693fb02 <unknown>
+#14 0x602c769407c1 <unknown>
+#15 0x602c76e40448 <unknown>
+#16 0x602c76e442af <unknown>
+#17 0x602c76e278d9 <unknown>
+#18 0x602c76e44e55 <unknown>
+#19 0x602c76e0d13f <unknown>
+#20 0x602c76e694b8 <unknown>
+#21 0x602c76e69693 <unknown>
+#22 0x602c76e7b613 <unknown>
+#23 0x726c99294ac3 <unknown>
+
+2025-10-16 23:25:04,732 - WARNING - Failed: 100699 | Message: timeout: Timed out receiving message from renderer: 14.592
+  (Session info: chrome=141.0.7390.107)
+Stacktrace:
+#0 0x602c76e7c67a <unknown>
+#1 0x602c768fb566 <unknown>
+#2 0x602c768e361f <unknown>
+#3 0x602c768e3302 <unknown>
+#4 0x602c768e1142 <unknown>
+#5 0x602c768e1a9f <unknown>
+#6 0x602c768f0373 <unknown>
+#7 0x602c76909a7b <unknown>
+#8 0x602c7691020b <unknown>
+#9 0x602c768e21dd <unknown>
+#10 0x602c769097a8 <unknown>
+#11 0x602c76999685 <unknown>
+#12 0x602c76973403 <unknown>
+#13 0x602c7693fb02 <unknown>
+#14 0x602c769407c1 <unknown>
+#15 0x602c76e40448 <unknown>
+#16 0x602c76e442af <unknown>
+#17 0x602c76e278d9 <unknown>
+#18 0x602c76e44e55 <unknown>
+#19 0x602c76e0d13f <unknown>
+#20 0x602c76e694b8 <unknown>
+#21 0x602c76e69693 <unknown>
+#22 0x602c76e7b613 <unknown>
+#23 0x726c99294ac3 <unknown>
+
+2025-10-16 23:25:44,264 - WARNING - Failed: 98834 | Message: timeout: Timed out receiving message from renderer: 13.605
+  (Session info: chrome=141.0.7390.107)
+Stacktrace:
+#0 0x602c76e7c67a <unknown>
+#1 0x602c768fb566 <unknown>
+#2 0x602c768e361f <unknown>
+#3 0x602c768e3302 <unknown>
+#4 0x602c768e1142 <unknown>
+#5 0x602c768e1a9f <unknown>
+#6 0x602c768f0373 <unknown>
+#7 0x602c76909a7b <unknown>
+#8 0x602c7691020b <unknown>
+#9 0x602c768e21dd <unknown>
+#10 0x602c769097a8 <unknown>
+#11 0x602c76999685 <unknown>
+#12 0x602c76973403 <unknown>
+#13 0x602c7693fb02 <unknown>
+#14 0x602c769407c1 <unknown>
+#15 0x602c76e40448 <unknown>
+#16 0x602c76e442af <unknown>
+#17 0x602c76e278d9 <unknown>
+#18 0x602c76e44e55 <unknown>
+#19 0x602c76e0d13f <unknown>
+#20 0x602c76e694b8 <unknown>
+#21 0x602c76e69693 <unknown>
+#22 0x602c76e7b613 <unknown>
+#23 0x726c99294ac3 <unknown>
+
+2025-10-16 23:26:14,575 - INFO - Batch 9/389 | Success: 47/50 | Failed: 3 | Time: 401.0s | Avg: 8.0s/product | Progress: 447/19417 (2.3%)
+2025-10-16 23:31:51,328 - INFO - Batch 10/389 | Success: 50/50 | Failed: 0 | Time: 333.7s | Avg: 6.7s/product | Progress: 497/19417 (2.6%)
+2025-10-16 23:37:30,900 - INFO - Batch 11/389 | Success: 50/50 | Failed: 0 | Time: 336.6s | Avg: 6.7s/product | Progress: 547/19417 (2.8%)
+2025-10-16 23:43:14,392 - INFO - Batch 12/389 | Success: 50/50 | Failed: 0 | Time: 340.5s | Avg: 6.8s/product | Progress: 597/19417 (3.1%)
+2025-10-16 23:48:56,082 - INFO - Batch 13/389 | Success: 50/50 | Failed: 0 | Time: 338.7s | Avg: 6.8s/product | Progress: 647/19417 (3.3%)
+2025-10-16 23:54:48,519 - INFO - Batch 14/389 | Success: 50/50 | Failed: 0 | Time: 349.4s | Avg: 7.0s/product | Progress: 697/19417 (3.6%)
+2025-10-17 00:00:33,288 - INFO - Batch 15/389 | Success: 50/50 | Failed: 0 | Time: 341.8s | Avg: 6.8s/product | Progress: 747/19417 (3.8%)
+2025-10-17 00:06:18,197 - INFO - Batch 16/389 | Success: 50/50 | Failed: 0 | Time: 341.9s | Avg: 6.8s/product | Progress: 797/19417 (4.1%)
+2025-10-17 00:12:00,296 - INFO - Batch 17/389 | Success: 50/50 | Failed: 0 | Time: 339.1s | Avg: 6.8s/product | Progress: 847/19417 (4.4%)
+2025-10-17 00:18:07,617 - INFO - Batch 18/389 | Success: 50/50 | Failed: 0 | Time: 364.3s | Avg: 7.3s/product | Progress: 897/19417 (4.6%)
+2025-10-17 00:23:56,650 - INFO - Batch 19/389 | Success: 50/50 | Failed: 0 | Time: 346.0s | Avg: 6.9s/product | Progress: 947/19417 (4.9%)
+2025-10-17 00:29:40,430 - INFO - Batch 20/389 | Success: 50/50 | Failed: 0 | Time: 340.8s | Avg: 6.8s/product | Progress: 997/19417 (5.1%)
+2025-10-17 00:35:27,971 - INFO - Batch 21/389 | Success: 50/50 | Failed: 0 | Time: 344.5s | Avg: 6.9s/product | Progress: 1047/19417 (5.4%)
+2025-10-17 00:41:04,760 - INFO - Batch 22/389 | Success: 50/50 | Failed: 0 | Time: 333.8s | Avg: 6.7s/product | Progress: 1097/19417 (5.6%)
+2025-10-17 00:46:58,010 - INFO - Batch 23/389 | Success: 50/50 | Failed: 0 | Time: 350.2s | Avg: 7.0s/product | Progress: 1147/19417 (5.9%)
+2025-10-17 00:52:47,414 - INFO - Batch 24/389 | Success: 50/50 | Failed: 0 | Time: 346.4s | Avg: 6.9s/product | Progress: 1197/19417 (6.2%)
+2025-10-17 00:58:31,137 - INFO - Batch 25/389 | Success: 50/50 | Failed: 0 | Time: 340.7s | Avg: 6.8s/product | Progress: 1247/19417 (6.4%)
+2025-10-17 01:04:20,351 - INFO - Batch 26/389 | Success: 50/50 | Failed: 0 | Time: 346.2s | Avg: 6.9s/product | Progress: 1297/19417 (6.7%)
+2025-10-17 01:10:01,544 - INFO - Batch 27/389 | Success: 50/50 | Failed: 0 | Time: 338.2s | Avg: 6.8s/product | Progress: 1347/19417 (6.9%)
+2025-10-17 01:15:45,898 - INFO - Batch 28/389 | Success: 50/50 | Failed: 0 | Time: 341.3s | Avg: 6.8s/product | Progress: 1397/19417 (7.2%)
+2025-10-17 01:21:32,911 - INFO - Batch 29/389 | Success: 50/50 | Failed: 0 | Time: 344.0s | Avg: 6.9s/product | Progress: 1447/19417 (7.5%)
+2025-10-17 01:27:12,672 - INFO - Batch 30/389 | Success: 50/50 | Failed: 0 | Time: 336.8s | Avg: 6.7s/product | Progress: 1497/19417 (7.7%)
+2025-10-17 01:32:46,489 - INFO - Batch 31/389 | Success: 50/50 | Failed: 0 | Time: 330.8s | Avg: 6.6s/product | Progress: 1547/19417 (8.0%)
+2025-10-17 01:38:22,497 - INFO - Batch 32/389 | Success: 50/50 | Failed: 0 | Time: 333.0s | Avg: 6.7s/product | Progress: 1597/19417 (8.2%)
+2025-10-17 01:44:03,965 - INFO - Batch 33/389 | Success: 50/50 | Failed: 0 | Time: 338.5s | Avg: 6.8s/product | Progress: 1647/19417 (8.5%)
+2025-10-17 01:49:48,002 - INFO - Batch 34/389 | Success: 50/50 | Failed: 0 | Time: 341.0s | Avg: 6.8s/product | Progress: 1697/19417 (8.7%)
+2025-10-17 01:55:36,518 - INFO - Batch 35/389 | Success: 50/50 | Failed: 0 | Time: 345.5s | Avg: 6.9s/product | Progress: 1747/19417 (9.0%)
+2025-10-17 02:01:21,750 - INFO - Batch 36/389 | Success: 50/50 | Failed: 0 | Time: 342.2s | Avg: 6.8s/product | Progress: 1797/19417 (9.3%)
+2025-10-17 02:12:40,988 - INFO - ======================================================================
+2025-10-17 02:12:40,988 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-17 02:12:40,988 - INFO - ======================================================================
+2025-10-17 02:12:40,988 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-17 02:12:41,006 - INFO - Connected to MongoDB: glamira
+2025-10-17 02:12:41,006 - INFO - 
+Step 2: Loading product data...
+2025-10-17 02:12:41,038 - INFO - Loaded 19417 products from file
+2025-10-17 02:12:41,039 - INFO - 
+Step 3: Checking resume state...
+2025-10-17 02:12:41,039 - INFO - Loaded resume state: 1797 products already crawled
+2025-10-17 02:12:41,041 - INFO - Total products: 19417
+2025-10-17 02:12:41,041 - INFO - Already crawled: 1797
+2025-10-17 02:12:41,041 - INFO - Remaining: 17620
+2025-10-17 02:12:41,041 - INFO - 
+Step 4: Setting up Selenium driver...
+2025-10-17 02:12:41,041 - INFO - ====== WebDriver manager ======
+2025-10-17 02:12:41,146 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 02:12:41,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 02:12:41,306 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 02:12:41,507 - INFO - WebDriver version 141.0.7390.78 selected
+2025-10-17 02:12:41,516 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+2025-10-17 02:12:41,517 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/141.0.7390.78/linux64/chromedriver-linux64.zip
+2025-10-17 02:12:41,600 - INFO - Driver downloading response is 200
+2025-10-17 02:12:41,662 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 02:12:41,932 - INFO - Driver has been saved in cache [/home/audreydang4103_gmail_com/.wdm/drivers/chromedriver/linux64/141.0.7390.78]
+2025-10-17 02:12:42,205 - INFO - Chrome driver ready
+2025-10-17 02:12:42,205 - INFO - 
+Step 5: Crawling 17620 products...
+2025-10-17 02:18:59,533 - INFO - Batch 1/353 | Success: 50/50 | Failed: 0 | Time: 377.3s | Avg: 7.5s/product | Progress: 1847/19417 (9.5%)
+2025-10-17 02:25:01,907 - INFO - Batch 2/353 | Success: 50/50 | Failed: 0 | Time: 359.4s | Avg: 7.2s/product | Progress: 1897/19417 (9.8%)
+2025-10-17 02:30:49,478 - INFO - Batch 3/353 | Success: 50/50 | Failed: 0 | Time: 344.6s | Avg: 6.9s/product | Progress: 1947/19417 (10.0%)
+2025-10-17 02:36:28,226 - INFO - Batch 4/353 | Success: 50/50 | Failed: 0 | Time: 335.7s | Avg: 6.7s/product | Progress: 1997/19417 (10.3%)
+2025-10-17 02:42:09,497 - INFO - Batch 5/353 | Success: 50/50 | Failed: 0 | Time: 338.3s | Avg: 6.8s/product | Progress: 2047/19417 (10.5%)
+2025-10-17 02:47:50,210 - INFO - Batch 6/353 | Success: 50/50 | Failed: 0 | Time: 337.7s | Avg: 6.8s/product | Progress: 2097/19417 (10.8%)
+2025-10-17 02:53:36,380 - INFO - Batch 7/353 | Success: 50/50 | Failed: 0 | Time: 343.2s | Avg: 6.9s/product | Progress: 2147/19417 (11.1%)
+2025-10-17 02:59:35,610 - INFO - Batch 8/353 | Success: 50/50 | Failed: 0 | Time: 356.2s | Avg: 7.1s/product | Progress: 2197/19417 (11.3%)
+2025-10-17 03:05:23,617 - INFO - Batch 9/353 | Success: 50/50 | Failed: 0 | Time: 345.0s | Avg: 6.9s/product | Progress: 2247/19417 (11.6%)
+2025-10-17 03:11:20,648 - INFO - Batch 10/353 | Success: 50/50 | Failed: 0 | Time: 354.0s | Avg: 7.1s/product | Progress: 2297/19417 (11.8%)
+2025-10-17 03:17:14,479 - INFO - Batch 11/353 | Success: 50/50 | Failed: 0 | Time: 350.8s | Avg: 7.0s/product | Progress: 2347/19417 (12.1%)
+2025-10-17 03:32:20,603 - INFO - ======================================================================
+2025-10-17 03:32:20,623 - INFO - STARTING PRODUCT DETAILS CRAWLING (Selenium)
+2025-10-17 03:32:20,623 - INFO - ======================================================================
+2025-10-17 03:32:20,623 - INFO - 
+Step 1: Connecting to MongoDB...
+2025-10-17 03:32:20,657 - INFO - Connected to MongoDB: glamira
+2025-10-17 03:32:20,657 - INFO - 
+Step 2: Loading product data...
+2025-10-17 03:32:20,756 - INFO - Loaded 19417 products from file
+2025-10-17 03:32:20,757 - INFO - 
+Step 3: Checking resume state...
+2025-10-17 03:32:20,767 - INFO - Loaded resume state: 2347 products already crawled
+2025-10-17 03:32:20,769 - INFO - Total products: 19417
+2025-10-17 03:32:20,770 - INFO - Already crawled: 2347
+2025-10-17 03:32:20,770 - INFO - Remaining: 17070
+2025-10-17 03:32:20,770 - INFO - 
+Step 4: Setting up Selenium driver...
+2025-10-17 03:32:20,770 - INFO - ====== WebDriver manager ======
+2025-10-17 03:32:21,057 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 03:32:21,148 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-17 03:32:21,223 - INFO - Driver [/home/audreydang4103_gmail_com/.wdm/drivers/chromedriver/linux64/141.0.7390.78/chromedriver-linux64/chromedriver] found in cache
+2025-10-17 03:32:22,414 - INFO - Chrome driver ready
+2025-10-17 03:32:22,414 - INFO - 
+Step 5: Crawling 17070 products...
+2025-10-17 03:38:11,137 - INFO - Batch 1/342 | Success: 50/50 | Failed: 0 | Time: 348.7s | Avg: 7.0s/product | Progress: 2397/19417 (12.3%)
+2025-10-17 03:44:02,224 - INFO - Batch 2/342 | Success: 50/50 | Failed: 0 | Time: 348.1s | Avg: 7.0s/product | Progress: 2447/19417 (12.6%)
+2025-10-17 03:49:44,777 - INFO - Batch 3/342 | Success: 50/50 | Failed: 0 | Time: 339.5s | Avg: 6.8s/product | Progress: 2497/19417 (12.9%)
+2025-10-17 03:55:29,939 - INFO - Batch 4/342 | Success: 50/50 | Failed: 0 | Time: 342.2s | Avg: 6.8s/product | Progress: 2547/19417 (13.1%)
+2025-10-17 04:01:13,464 - INFO - Batch 5/342 | Success: 50/50 | Failed: 0 | Time: 340.5s | Avg: 6.8s/product | Progress: 2597/19417 (13.4%)
+2025-10-17 04:07:01,359 - INFO - Batch 6/342 | Success: 50/50 | Failed: 0 | Time: 344.9s | Avg: 6.9s/product | Progress: 2647/19417 (13.6%)
+2025-10-17 04:12:48,826 - INFO - Batch 7/342 | Success: 50/50 | Failed: 0 | Time: 344.5s | Avg: 6.9s/product | Progress: 2697/19417 (13.9%)
+2025-10-17 04:18:25,564 - INFO - Batch 8/342 | Success: 50/50 | Failed: 0 | Time: 333.7s | Avg: 6.7s/product | Progress: 2747/19417 (14.1%)
+2025-10-17 04:18:41,977 - INFO - 
+Cleaning up...
+2025-10-17 04:18:41,980 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/d8279b48ce7bebe5854a5d8ae55167dd
+2025-10-17 04:18:41,981 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f66cc18d390>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d8279b48ce7bebe5854a5d8ae55167dd
+2025-10-17 04:18:41,981 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f66cc18d540>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d8279b48ce7bebe5854a5d8ae55167dd
+2025-10-17 04:18:41,983 - INFO - Cleanup completed
+2025-10-17 04:18:41,984 - WARNING - 
+Script interrupted by user
+2025-10-17 04:18:41,984 - INFO - Resume state saved. Run script again to continue.

@@ -1,8 +1,3 @@
-"""
-Glamira Product Crawler with Selenium
-Crawls: product_name, price, currency, category, image_url, rating, url, domain
-"""
-
 import logging
 import sys
 import json
