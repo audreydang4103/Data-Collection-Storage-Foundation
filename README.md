@@ -132,7 +132,7 @@ DELAY_BETWEEN_PRODUCTS = 2    # Seconds
 - **Batch Size**: 1000 IPs
 - **Expected Time**: 30-40 minute
 
-### Product Crawler: 17070 products
+### Product Crawler: 19,417 products
 - **Speed**: 5-8s per product
 - **Throughput**: 7-12 products/minute
 - **Batch Size**: 50 products
